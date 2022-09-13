@@ -10,7 +10,7 @@ function App() {
           <Routes>
 
            
-            <Route path='/' excat element={<Home />}/>
+            <Route path='/' exact element={<Home />}/>
             <Route path="/search" element={<SearchPage />}/>
               
           </Routes>
